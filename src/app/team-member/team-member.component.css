@@ -1,0 +1,14 @@
+img {
+    max-height: 100px;
+}
+
+button {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: none;
+}
+
+button:hover{
+    background-color: darkgray;
+}

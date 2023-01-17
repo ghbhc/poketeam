@@ -1,0 +1,15 @@
+<mat-autocomplete #auto="matAutocomplete">
+    <mat-option *ngFor="let value of filteredOptions | async" [value]="value">{{value}}</mat-option>
+</mat-autocomplete>
+<mat-form-field appearance="fill">
+    <mat-label>Search for Pokemon</mat-label>
+    <input
+        matInput
+        #newPokemon
+        (keyup.enter)="submitValue(newPokemon.value);newPokemon.value = ''"
+        [formControl]="myControl"
+        [matAutocomplete]="auto"
+    >
+    <button class="remove-button" mat-raised-button color="primary" (click)="submitValue(newPokemon.value);newPokemon.value = ''">Add
+    </button>
+</mat-form-field>

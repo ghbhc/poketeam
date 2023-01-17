@@ -1,0 +1,64 @@
+mat-grid-tile {
+    opacity: 20%;
+    font-weight: bold;
+    color: white;
+}
+#normal {
+    background-color: #a8a877;
+}
+
+#fighting {
+    background-color: #c03128;
+}
+
+#flying {
+    background-color: #a890f0
+}
+
+#poison {
+    background-color: #a0409f;
+}
+
+#ground {
+    background-color: #e1bf68;
+}
+
+#rock {
+    background-color: #b89f39;
+}
+
+#bug {
+    background-color: #a9b720;
+}
+
+#ghost {
+    background-color: #705898;
+}
+
+#fire {
+    background-color: #ef8130;
+}
+
+#water {
+    background-color: #6790ef;
+}
+
+#grass {
+    background-color: #78c74f;
+}
+
+#electric {
+    background-color: #f8cf30;
+}
+
+#psychic {
+    background-color: #f85887;
+}
+
+#ice {
+    background-color: #99d7d8;
+}
+
+#dragon {
+    background-color: #7038f8;
+}
