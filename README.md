@@ -9,7 +9,7 @@ This is a small Angular app to show what type advantages a generation 1 Pokemon 
 
 If you want to use the utility script to scrape Pokemon images:
 * [Python](https://www.python.org/)
-* [requests](https://requests.readthedocs.io/en/latest/)
+* [Requests](https://requests.readthedocs.io/en/latest/)
 * [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
 
 ## Installation
@@ -26,5 +26,9 @@ python -m venv ~/envs/requests
 . ~/envs/bin/activate
 python src/utils/get-poke0imgs.py
 ```
+
+Example team:
+
+![Example Team]('images/example_team.png')
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.1.
