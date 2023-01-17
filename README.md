@@ -29,6 +29,6 @@ python src/utils/get-poke0imgs.py
 
 Example team:
 
-![Example Team]('/images/example_team.png')
+![Example Team](images/example_team.png)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.1.
