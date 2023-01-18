@@ -24,6 +24,9 @@ To set up and use the image scraping script:
 ```
 python -m venv ~/envs/requests
 . ~/envs/bin/activate
+pip install --upgrade pip
+pip install requests
+pip install beautifulsoup4
 python src/utils/get-poke0imgs.py
 ```
 
